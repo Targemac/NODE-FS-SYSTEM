@@ -4,13 +4,12 @@ const fs = require("fs");
 // 1. file to read from
 // 2. character enconding
 const readMe = fs.readFileSync("./readme.txt", "utf-8");
-
 // show ouput in console
-// console.log(readMe);
+console.log(readMe);
 
 //writing to file
-// 1. destination 
-// 2. source 
+// 1. destination
+// 2. source
 fs.writeFileSync("writeme.txt", readMe);
 
 //code

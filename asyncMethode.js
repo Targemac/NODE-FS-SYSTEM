@@ -4,10 +4,10 @@ const fs = require("fs");
 // 1. file to read from
 // 2. character enconding
 // 3. callback function (error, data)
-// const readMe = fs.readFile("./readme.txt", "utf-8", (err, data) => {
-//   // show ouput in console
-//   //   console.log(data);
-// });
+const readMe = fs.readFile("./readme.txt", "utf-8", (err, data) => {
+  // show ouput in console
+    console.log(data);
+});
 
 //Async writing to file
 // 1. detsination
